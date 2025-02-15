@@ -31,7 +31,7 @@ public class Main {
                     printList();
                     break;
                 case 6:
-                    break;
+                    return;
                 default:
                     throw new IllegalStateException("Unexpected value: " + choice);
             }
